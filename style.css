@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    background-color: black;
+    position: fixed;
+    padding: 10px;
+    height: 10%;
+    text-align: right;
+    width: 100%;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: rgb(224, 0, 198);
+    font-size: large;
+}
+#navbar a:hover {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+header {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: rgb(224, 0, 198);
+}
+#myPic {
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    background-color: white;
+    left: 55%;
+    top: 20%;
+    border-radius: 50px;
+}
+#p1, h1, #p2 {
+    position: absolute;
+    left: 10%;
+}
+#p1 {
+    top: 43%;
+    font-size: x-large;
+}
+h1 {
+    top: 50%;
+    font-size: 70px;
+}
+#p2 {
+    top: 63%;
+    font-size: x-large;
+}
+
+#about, #project, #edu, #contact{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: rgb(224, 0, 198);
+}
+#about h2, #project h2, #edu h2, #contact h2{
+    position: relative;
+    height: 100px;
+    width: 500px;
+    padding: 30px 60px;
+    font-size: 40px;
+}
+#p3, #p4 {
+    width: 100%;
+    padding: 30px 60px;
+    height: 33%;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-align: justify;
+    line-height: 30px;
+}
+#project #container {
+    width: 70%;
+}
+#project #container, #edu #container, #contact #container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 80%;
+    justify-content: space-evenly;
+}
+#proj1, #proj2, #proj3 {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding: 70px 0;
+    font-weight: 800;
+    border: 3px solid rgb(224, 0, 198);
+}
+#project a:hover {
+    color: white;
+    font-size: 27px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+
+#edu #container {
+    width: 90%;
+}
+#edu1, #edu2, #edu3 {
+    height: 300px;
+    width: 370px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(224, 0, 198);
+}
+#edu1 p, #edu2 p, #edu3 p{
+    text-align: left;
+    line-height: 35px;
+    padding: 20px;
+    font-size: 18px;
+}
+#edu1:hover, #edu2:hover, #edu3:hover {
+    width: 400px;
+}
+#edu1 p:hover, #edu2 p:hover, #edu3 p:hover {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#contact #container {
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#c1, #c2, #c3, #c4 {
+    height: 100px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 20px 0 10px 30px;
+    padding-top: 35px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    border: 3px solid rgb(224, 0, 198);
+}
+#contact a:hover {
+    color: white;
+    font-size: 27px;
+    height: 100px;
+    width: 550px;
+    cursor: pointer;
+}
